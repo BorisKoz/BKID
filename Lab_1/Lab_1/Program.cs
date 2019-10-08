@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -69,7 +69,6 @@ namespace Lab_1
                 }
                 else
                 {
-                    Console.WriteLine(D);
                     X = (-b + D) / (2 * a);
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("{0} :  {1}", "Корень 1", X);
