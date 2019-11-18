@@ -1,0 +1,14 @@
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\obj\Debug\Lab_2.pdb
+C:\Users\ksarb\source\repos\Lab_2\Lab_2\obj\Debug\Lab_2.csprojAssemblyReference.cache
+C:\Users\Student\BKID\Lab_1\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\Student\BKID\Lab_1\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\Student\BKID\Lab_1\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\Student\BKID\Lab_1\Lab_2\obj\Debug\Lab_2.csprojAssemblyReference.cache
+C:\Users\Student\BKID\Lab_1\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Student\BKID\Lab_1\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\Student\BKID\Lab_1\Lab_2\obj\Debug\Lab_2.pdb
