@@ -1,0 +1,13 @@
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_3.exe.config
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_3.exe
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_3.pdb
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_2.exe
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_2.pdb
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\Lab_2.exe.config
+C:\Users\Student\BKID\Lab_1\Lab_3\obj\Debug\Lab_3.csprojAssemblyReference.cache
+C:\Users\Student\BKID\Lab_1\Lab_3\obj\Debug\Lab_3.csproj.CoreCompileInputs.cache
+C:\Users\Student\BKID\Lab_1\Lab_3\obj\Debug\Lab_3.csproj.CopyComplete
+C:\Users\Student\BKID\Lab_1\Lab_3\obj\Debug\Lab_3.exe
+C:\Users\Student\BKID\Lab_1\Lab_3\obj\Debug\Lab_3.pdb
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\SimpleListProject.exe
+C:\Users\Student\BKID\Lab_1\Lab_3\bin\Debug\SimpleListProject.pdb
