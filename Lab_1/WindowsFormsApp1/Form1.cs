@@ -59,13 +59,13 @@ namespace WindowsFormsApp1
                 timer.Start();
                 // переход в верхний регистр
                 string word_upregist = word.ToUpper();
-                List<string> words_upregist = new List<string>();
+                List<string> words_result = new List<string>();
                 // поиск в списке
                 foreach (string i in list)
                 {
                     if (i.ToUpper().Contains(word_upregist))
                     {
-                        words_upregist.Add(i);
+                        words_result.Add(i);
                     }
                 }
                 timer.Stop();
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
                 // вывод результатов
                 this.result_box.BeginUpdate();
                     this.result_box.Items.Clear();
-                    foreach (string str in words_upregist)
+                    foreach (string str in words_result)
                     {
                         this.result_box.Items.Add(str);
                     }

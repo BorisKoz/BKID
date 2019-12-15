@@ -146,12 +146,12 @@
         private System.Windows.Forms.Label time_label;
         private System.Windows.Forms.Label red_time_label;
         private System.Windows.Forms.Label read_time;
-        private System.Windows.Forms.Label search_time;
         private System.Windows.Forms.Label label1;
         protected System.Windows.Forms.Button search_button;
         protected System.Windows.Forms.Button button_read_text;
         protected System.Windows.Forms.TextBox word_input;
         protected System.Windows.Forms.ListBox result_box;
+        protected System.Windows.Forms.Label search_time;
     }
 }
 

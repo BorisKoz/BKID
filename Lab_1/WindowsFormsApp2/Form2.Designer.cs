@@ -40,7 +40,7 @@ namespace WindowsFormsApp2
             // 
             // search_button
             // 
-            this.search_button.Location = new System.Drawing.Point(181, 235);
+            this.search_button.Location = new System.Drawing.Point(136, 235);
             this.search_button.Size = new System.Drawing.Size(67, 25);
             // 
             // read_time
@@ -105,6 +105,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.read_time);
             this.Name = "Form2";
             this.Text = "Lab_5";
+            this.Controls.SetChildIndex(this.result_box, 0);
             this.Controls.SetChildIndex(this.button_read_text, 0);
             this.Controls.SetChildIndex(this.word_input, 0);
             this.Controls.SetChildIndex(this.search_button, 0);
@@ -127,8 +128,8 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox distance;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox distance_box;
-        private System.Windows.Forms.Button button1;
+        protected System.Windows.Forms.Button button1;
+        protected System.Windows.Forms.TextBox distance_box;
     }
 }
 

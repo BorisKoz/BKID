@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
             {
                 // к верхнему
                 string word_upregist = word.ToUpper();
-                List<string> words_upregist = new List<string>();
+                List<string> words_result = new List<string>();
                 Stopwatch timer = new Stopwatch();
                 timer.Start();
                 foreach (string str in list)
@@ -32,14 +32,15 @@ namespace WindowsFormsApp2
                     // сравнение расстояния и добавление
                     if (EditDistance.Distance(word_upregist, str.ToUpper()) <= int.Parse(distance_box.Text))
                     {
-                        words_upregist.Add(str);
+                        words_result.Add(str);
                     }  
                 }
                 timer.Stop();
+                this.search_time.Text = timer.Elapsed.ToString();
                 // вывод результатов
                 this.result_box.BeginUpdate();
                 this.result_box.Items.Clear();
-                foreach (string str in words_upregist)
+                foreach (string str in words_result)
                 {
                     this.result_box.Items.Add(str);
                 }

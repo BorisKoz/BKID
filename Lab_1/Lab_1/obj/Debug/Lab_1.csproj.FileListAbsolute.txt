@@ -1,7 +1,7 @@
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\bin\Debug\Lab_1.exe.config
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\bin\Debug\Lab_1.exe
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\bin\Debug\Lab_1.pdb
-C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\obj\Debug\Lab_1.csprojAssemblyReference.cache
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.CoreCompileInputs.cache
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\obj\Debug\Lab_1.exe
 C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\obj\Debug\Lab_1.pdb
+C:\Users\ksarb\Documents\BKID\Lab_1\Lab_1\obj\Debug\Lab_1.csprojAssemblyReference.cache
