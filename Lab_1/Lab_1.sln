@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleListProject", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_4", "WindowsFormsApp1\Lab_4.csproj", "{910EF98D-2755-4886-A9D5-8A4450FB2745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_5", "WindowsFormsApp2\Lab_5.csproj", "{46703628-CA39-4DA4-A90C-7CE25A426832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditDistanceProject", "EditDistanceProject\EditDistanceProject.csproj", "{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,22 @@ Global
 		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|Any CPU.Build.0 = Release|Any CPU
 		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|x86.ActiveCfg = Release|Any CPU
 		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|x86.Build.0 = Release|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Debug|x86.Build.0 = Debug|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Release|x86.ActiveCfg = Release|Any CPU
+		{46703628-CA39-4DA4-A90C-7CE25A426832}.Release|x86.Build.0 = Release|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Debug|x86.Build.0 = Debug|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6612ABB0-039C-4CA5-9051-C26F4DA20E5F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

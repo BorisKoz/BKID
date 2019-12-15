@@ -18,9 +18,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        List<string> list = new List<string>();
+        protected List<string> list = new List<string>();
         // выбор и чтение
-        private void button_read_text_Click(object sender, EventArgs e)
+        protected void button_read_text_Click(object sender, EventArgs e)
         {
             OpenFileDialog fd = new OpenFileDialog();
             fd.Filter = "текстовые файлы|*.txt";
@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             }
         }
         // поиск
-        private void search_button_Click(object sender, EventArgs e)
+        protected void search_button_Click(object sender, EventArgs e)
         {
             string word = this.word_input.Text.Trim();
             if (!string.IsNullOrWhiteSpace(word) && list.Count > 0)
@@ -85,7 +85,7 @@ namespace WindowsFormsApp1
             }
         }
         // закрытие
-        private void Exit_Click(object sender, EventArgs e)
+        protected void Exit_Click(object sender, EventArgs e)
         {
             this.Close();
         }

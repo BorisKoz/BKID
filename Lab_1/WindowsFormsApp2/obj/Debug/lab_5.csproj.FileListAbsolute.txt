@@ -1,0 +1,16 @@
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\lab_5.csprojAssemblyReference.cache
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\lab_5.csproj.GenerateResource.cache
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\lab_5.csproj.CoreCompileInputs.cache
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\EditDistanceProject.dll
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\EditDistanceProject.pdb
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\lab_5.csproj.CopyComplete
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\ksarb\Documents\BKID\Lab_1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
