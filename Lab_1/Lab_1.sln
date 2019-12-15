@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_3", "Lab_3\Lab_3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleListProject", "SimpleListProject\SimpleListProject.csproj", "{80E70078-6D68-4D60-8FA1-A1B6F52E3A22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_4", "WindowsFormsApp1\Lab_4.csproj", "{910EF98D-2755-4886-A9D5-8A4450FB2745}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,14 @@ Global
 		{80E70078-6D68-4D60-8FA1-A1B6F52E3A22}.Release|Any CPU.ActiveCfg = Release|x86
 		{80E70078-6D68-4D60-8FA1-A1B6F52E3A22}.Release|x86.ActiveCfg = Release|x86
 		{80E70078-6D68-4D60-8FA1-A1B6F52E3A22}.Release|x86.Build.0 = Release|x86
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Debug|x86.Build.0 = Debug|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|x86.ActiveCfg = Release|Any CPU
+		{910EF98D-2755-4886-A9D5-8A4450FB2745}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
