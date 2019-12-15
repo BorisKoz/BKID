@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -147,7 +148,7 @@ namespace HT
                     }
                     Task.WaitAll(tasks);
                     timer.Stop();
-                    this.search_time.Text = timer.Elapsed.ToString();
+                    this.distance_time.Text = timer.Elapsed.ToString();
                     // вывод результатов
                     this.result_box.BeginUpdate();
                     this.result_box.Items.Clear();
@@ -164,5 +165,87 @@ namespace HT
             }
 
         }
+
+        private void report_button_Click(object sender, EventArgs e)
+        {
+            string TempReportFileName = "Report_" + DateTime.Now.ToString("dd_MM_yyyy_hhmmss");
+
+            //Диалог сохранения файла отчета
+            SaveFileDialog fd = new SaveFileDialog();
+            fd.FileName = TempReportFileName;
+            fd.DefaultExt = ".html";
+            fd.Filter = "HTML Reports|*.html";
+
+            if (fd.ShowDialog() == DialogResult.OK)
+            {
+                string ReportFileName = fd.FileName;
+
+                //Формирование отчета
+                StringBuilder b = new StringBuilder();
+                b.AppendLine("<html>");
+
+                b.AppendLine("<head>");
+                b.AppendLine("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>");
+                b.AppendLine("<title>" + "Отчет: " + ReportFileName + "</title>");
+                b.AppendLine("</head>");
+
+                b.AppendLine("<body>");
+
+                b.AppendLine("<h1>" + "Отчет: " + ReportFileName + "</h1>");
+                b.AppendLine("<table border='1'>");
+
+                b.AppendLine("<tr>");
+                b.AppendLine("<td>Время чтения из файла</td>");
+                b.AppendLine("<td>" + this.search_time.Text + "</td>");
+                b.AppendLine("</tr>");
+
+
+                b.AppendLine("<tr>");
+                b.AppendLine("<td>Слово для поиска</td>");
+                b.AppendLine("<td>" + this.word_input.Text + "</td>");
+                b.AppendLine("</tr>");
+
+                b.AppendLine("<tr>");
+                b.AppendLine("<td>Максимальное расстояние для нечеткого поиска</td>");
+                b.AppendLine("<td>" + this.distance_box.Text + "</td>");
+                b.AppendLine("</tr>");
+
+                b.AppendLine("<tr>");
+                b.AppendLine("<td>Время четкого поиска</td>");
+                b.AppendLine("<td>" + this.search_time.Text + "</td>");
+                b.AppendLine("</tr>");
+
+                b.AppendLine("<tr>");
+                b.AppendLine("<td>Время нечеткого поиска</td>");
+                b.AppendLine("<td>" + this.distance_time.Text + "</td>");
+                b.AppendLine("</tr>");
+
+                b.AppendLine("<tr valign='top'>");
+                b.AppendLine("<td>Результаты поиска</td>");
+                b.AppendLine("<td>");
+                b.AppendLine("<ul>");
+
+                foreach (var x in this.result_box.Items)
+                {
+                    b.AppendLine("<li>" + x.ToString() + "</li>");
+                }
+
+                b.AppendLine("</ul>");
+                b.AppendLine("</td>");
+                b.AppendLine("</tr>");
+
+
+                b.AppendLine("</table>");
+
+                b.AppendLine("</body>");
+                b.AppendLine("</html>");
+
+                //Сохранение файла
+                File.AppendAllText(ReportFileName, b.ToString());
+
+                MessageBox.Show("Отчет сформирован. Файл: " + ReportFileName);
+            }
+        }
+
     }
 }

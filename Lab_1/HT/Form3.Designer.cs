@@ -32,6 +32,9 @@
             this.search_distance_threads = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.thread_count = new System.Windows.Forms.TextBox();
+            this.report_button = new System.Windows.Forms.Button();
+            this.distance_time = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -88,11 +91,43 @@
             this.thread_count.TabIndex = 30;
             this.thread_count.Text = "1";
             // 
+            // report_button
+            // 
+            this.report_button.Location = new System.Drawing.Point(166, 393);
+            this.report_button.Name = "report_button";
+            this.report_button.Size = new System.Drawing.Size(75, 23);
+            this.report_button.TabIndex = 31;
+            this.report_button.Text = "отчёт";
+            this.report_button.UseVisualStyleBackColor = true;
+            this.report_button.Click += new System.EventHandler(this.report_button_Click);
+            // 
+            // distance_time
+            // 
+            this.distance_time.AutoSize = true;
+            this.distance_time.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.distance_time.Location = new System.Drawing.Point(157, 363);
+            this.distance_time.Name = "distance_time";
+            this.distance_time.Size = new System.Drawing.Size(0, 13);
+            this.distance_time.TabIndex = 32;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label4.Location = new System.Drawing.Point(15, 363);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 13);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Время поиска поточно";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.distance_time);
+            this.Controls.Add(this.report_button);
             this.Controls.Add(this.thread_count);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.search_distance_threads);
@@ -110,6 +145,9 @@
             this.Controls.SetChildIndex(this.search_distance_threads, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.thread_count, 0);
+            this.Controls.SetChildIndex(this.report_button, 0);
+            this.Controls.SetChildIndex(this.distance_time, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,6 +159,9 @@
         private System.Windows.Forms.Button search_distance_threads;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox thread_count;
+        private System.Windows.Forms.Button report_button;
+        private System.Windows.Forms.Label distance_time;
+        private System.Windows.Forms.Label label4;
     }
 }
 
